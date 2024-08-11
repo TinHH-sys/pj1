@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.total {
+    background: url(./filehinh/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: local;
+}
+
+.menu {
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    align-items: center;
+}
+
+.menu .logo {
+    /* margin-top: 2%; */
+    height: 70px;
+    width: 70px;
+}
+
+.menu .list {
+    list-style: none;
+    display: flex;
+    /* padding-top: 2%; */
+    gap: 15px;
+    color: whitesmoke;
+}
+
+.list .list1 {
+    background-color: transparent;
+    padding: 15px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.list .list1:hover {
+    transform: scale(1.15);
+    color: rgb(246, 137, 137);
+}
+
+.menu .login img {
+    height: 25px;
+    width: 25px;
+}
+
+.login {
+    display: flex;
+    color: whitesmoke;
+    /* padding-top: 2.5%; */
+    gap: 10px;
+    padding-right: 1, 5%;
+    align-items: center;
+}
+
+.login button {
+    display: flex;
+    margin: 0;
+    background: transparent;
+    align-items: center;
+    justify-items: center;
+    height: 33px;
+    color: whitesmoke;
+    gap: 5px;
+    border-radius: 8px
+}
+
+
+/* .total .content {
+    top: 42vh;
+    background: linear-gradient(to right, #1a0101 0%, rgb(43, 40, 40) 100%);
+}
+
+.total .content p {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 15px;
+    color: rgb(207, 70, 70);
+} */
